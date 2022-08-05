@@ -6,8 +6,6 @@ class AuthorSerializer(serializers.ModelSerializer):
     # my_discount = serializers.SerializerMethodField(read_only = True)
     class Meta:
         model = Author
-        fields = [
-            'name',
-            'contact',
-            'email',
-        ]
+        fields = "__all__"
+
+    
