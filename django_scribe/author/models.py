@@ -3,7 +3,12 @@ from django.db import models
 # Create your models here.
 
 class Author(models.Model):
-    Name = models.CharField(max_length=120)
-    # books = models.Model(Book)
+    # books = models.ForeignKey(Book.objects.filter(Author = Self.__name__), null= False, on_delete= models.DO_NOTHING)
+
+    name = models.CharField(max_length=120)
     contact = models.CharField(max_length=15)
     email = models.EmailField(null=True, blank= True)
+    photo = models.ImageField(null= True, blank=True)
+
+    def __str__(self) -> str:
+        return self.name

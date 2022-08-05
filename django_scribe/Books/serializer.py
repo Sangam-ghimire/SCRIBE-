@@ -6,9 +6,4 @@ class BookSerializer(serializers.ModelSerializer):
     # my_discount = serializers.SerializerMethodField(read_only = True)
     class Meta:
         model = Book
-        fields = [
-            'title',
-            'content',
-            'price',
-            'author',
-        ]
+        fields = "__all__"
