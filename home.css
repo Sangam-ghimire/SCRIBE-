@@ -27,7 +27,7 @@ header{
     color:#ffffff;
     text-decoration: none;
     font-weight:bold;
-    margin-top:1%;
+    margin-top:2%;
 }
 
 .sangam{
@@ -66,10 +66,15 @@ header{
     flex-wrap: wrap;
 }
 
+
 .suggestion>img{
     width:15%;
     margin:0px 8% 3% 0px;
 
+}
+
+.suggestion>img:hover{
+    box-shadow: 30px 30px 40px 0px rgba(140, 131, 131, 0.5);
 }
 
 h3{
