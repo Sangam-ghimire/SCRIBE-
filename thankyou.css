@@ -53,43 +53,6 @@ header{
     padding-right:15px;
 }
 
-.continue{
-    width: 80%;
-    padding:2em;
-    margin:2em 8em;
-    height: 20em;    
-}
-
-.suggestion{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin:2em;
-    flex-wrap: wrap;
-}
-
-
-.suggestion>img{
-    width:15%;
-    margin:0px 8% 3% 0px;
-
-}
-
-.suggestion>img:hover{
-    box-shadow: 30px 30px 40px 0px rgba(140, 131, 131, 0.5);
-}
-
-h3{
-    align-items: left;
-    margin-left: 1em;
-    font-weight:bold;
-    font-size: 2em;
-}
-form{
-    display:grid;
-    margin-left:150px;
-}
-
 .sidenav {
   height: 100%;
   width: 17em;
@@ -143,90 +106,7 @@ form{
 #home:hover{
     color:rgba(255, 0, 0, 0.71);
 }
-/* * {    
-    box-sizing: border-box;    
-  }     */
-      
-  input[type=text], select, textarea {    
-    width: 100%;    
-    padding: 12px;    
-    border: 1px solid rgb(70, 68, 68);    
-    border-radius: 4px;    
-    resize: vertical;    
-  }    
-  input[type=email], select, textarea {    
-    width: 100%;    
-    padding: 12px;    
-    border: 1px solid rgb(70, 68, 68);    
-    border-radius: 4px;    
-    resize: vertical;    
-  }    
-      
-  label {    
-    padding: 12px 12px 12px 0;    
-    display: inline-block;    
-  }    
-      
-  input[type=submit] {    
-    background-color: rgb(37, 116, 161);    
-    color: white;    
-    padding: 12px 20px;    
-    border: none;    
-    border-radius: 4px;    
-    cursor: pointer;    
-    float: right;  
-    margin-top:15px;  
-    margin-bottom: 15px;
-  }    
-      
-  input[type=submit]:hover {    
-    background-color: #45a049;  
-  }    
-      
-/* p { 
-    color:black;
-    font-weight: bold;
-    display:flex;   
-    border-radius: 5px; 
-    height:50%;
-    width:50%;
-    background-color: #f2f2f2;    
-    padding:50%;
-  }     */
-
-  .col-25 {    
-    color:black;
-    font-weight: bold;    
-    /* width: 25%;     */
-    margin-top: 6px;  
-      
-  }    
-      
-  .col-75 {    
-    float: center;    
-    width: 75%;    
-    margin-top: 6px; 
-
-  }  
-  .col-7{
-    color:black;
-    font-weight: bold;
-    margin-top: 20px;
-    float: center;    
-    width: 75%; 
-  } 
-      
-  /* Clear floats after the columns */    
-  .row:after {    
-    content: "";    
-    display: table;    
-    clear: both;    
-  }  
- 
-  h2{
-    text-align: center;
-  }
-
+            
   .dropbtn1 {
     position:relative;
     top:.7em;
@@ -265,3 +145,17 @@ form{
   
   .dropdown-content1 a:hover {background-color: #aaaaaa;}
   .dropdown1:hover .dropdown-content1 {display: block;}
+
+.container{
+  background-color: #cccccc;
+  color:#000000;
+  width:40%;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  top:8em;
+  left:29%;
+  font-size:1.5em;
+  font-weight:bold;
+  padding: 2%;
+}
