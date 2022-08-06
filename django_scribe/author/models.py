@@ -8,7 +8,10 @@ class Author(models.Model):
     contact = models.CharField(max_length=15)
     email = models.EmailField(null=True, blank= True)
     photo = models.ImageField(null= True, blank=True)
-    rating = models.IntegerField(null=True, blank=True, default=True)
+    rating = models.IntegerField(null=True, blank=True)
+    ratedUsersNo = models.IntegerField(null = True, default=0)
+    rewardPoints = models.IntegerField(null=True, blank= True)
+
 
     def __str__(self) -> str:
         return self.name
