@@ -53,7 +53,7 @@ header{
 
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 17em;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -62,6 +62,11 @@ header{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    display:none;
+  }
+
+  .navdiv1:hover .sidenav{
+    display: block;
   }
   
   .sidenav a {
