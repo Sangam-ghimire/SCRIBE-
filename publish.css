@@ -260,3 +260,22 @@ form{
   
   .dropdown-content1 a:hover {background-color: #aaaaaa;}
   .dropdown1:hover .dropdown-content1 {display: block;}
+
+.submit{
+  text-decoration: none;
+}
+
+  .submit1{
+    width:6em;
+    position: relative;
+    left:75%;
+    background-color: #00b000;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0.5em 0;
+  }
+
+  .submit1:hover{
+    background-color: #009000;
+  }
