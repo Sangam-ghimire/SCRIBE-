@@ -211,6 +211,8 @@ a:hover{
 
 .dropbtn1 {
     position:relative;
+    height:2.5em;
+    border-radius:50%;
     top:.7em;
     color: white;
     padding: 10px;
@@ -247,3 +249,9 @@ a:hover{
   
   .dropdown-content1 a:hover {background-color: #aaaaaa;}
   .dropdown1:hover .dropdown-content1 {display: block;}
+
+  .idlogo{
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+  }
