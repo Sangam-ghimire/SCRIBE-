@@ -55,7 +55,8 @@ header{
     width: 80%;
     padding:2em;
     margin:2em 8em;
-    height: 20em;    
+    height: 20em;
+    border-radius: 5em;    
 }
 
 .suggestion{
@@ -67,10 +68,15 @@ header{
 }
 
 
-.suggestion>img{
+.suggestion>img, .suggestion>a{
     width:15%;
     margin:0px 8% 3% 0px;
 
+}
+
+.suggestion>a>img{
+  width:13em;
+  margin:0px 8% 3% 0px;
 }
 
 .suggestion>img:hover{
@@ -141,6 +147,8 @@ h3{
 .dropbtn {
     position:relative;
     top:.7em;
+    height:2.5em;
+    border-radius: 50%;
     color: white;
     padding: 16px;
     font-size: 16px;
