@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SCRIBE | Home</title>
+        <title>SCRIBE | Publish</title>
         <link rel="icon" type="image/png" href="./res/favicon.png">
     </head>
     <body>
@@ -45,18 +45,21 @@
               <Link to="#"><img src="res/cart.svg" /></Link> 
           </span>
           <span class="navdiv3">
-              <Link to="#"><img src="res/idlogo.svg" /></Link>
-            </span>
+            <div class="dropdown1">
+              <img class="dropbtn1" src="res/idlogo.svg" />
+              <div class="dropdown-content1">
+                <a href="#">My Profile</a>
+                <a href="#">Notifications</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">My Library</a>
+                <a href="#">Settings</a>
+                <a href="#">Sign Out</a>
+              </div>
+            </div>
+          </span>
         </div>
     </header>
     
-    <!-- <div> Click on the "Choose File" button to upload a file:
-
-    <form action="#">
-    <input type="file" id="myFile" name="filename">
-    <input type="submit">
-    </form>
-         -->
 
          <h2>Submit Your Work Details</h2>    
 <div class="container">    
@@ -130,7 +133,19 @@
           <option value="china">China</option>    
         </select>    
       </div>    
-    </div>    
+    </div> 
+    <div class="row">    
+      <div class="col-25">    
+        <label for="country">Will you sell NFT?</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+            <option value="none">Select Option</option>    
+          <option value="English">Yes</option>    
+          <option value="Chinese">No</option>        
+        </select>    
+      </div>    
+    </div>   
     <div class="row">    
       <div class="col-25">    
         <label for="feed_back">Submit your Abstract for </label>   
