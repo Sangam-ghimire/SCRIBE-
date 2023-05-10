@@ -1,5 +1,5 @@
-# SCRIBE
-
+# SCRIBE #TEAM THE BOOLEAN DEBUGGERS
+#WON OPEN INNOVATION TRACK(KU HACKFEST 2022)
 KU Hackathon 2022
 Deployed via Github pages on https://anonymous719.github.io/SCRIBE/
 
